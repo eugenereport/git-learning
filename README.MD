@@ -1,18 +1,7 @@
 ## Титул
-
-<br>
-
-<p align="center" style="font-size: 30px;">
-    <b>Вивчення Git</b>
-</p>
-<p align="center" style="font-size: 24px;">
-    Виконав студент: Прокопенко Євгеній ІПЗ-4.04
-</p>
-<p align="center" style="font-size: 24px;">
-    з дисципліни: <b>"Розробка та програмування координатних систем"</b>
-</p>
-
-<br>
+## Вивчення Git
+## Виконав студент: Прокопенко Євгеній ІПЗ-4.04
+## з дисципліни: **"Розробка та програмування координатних систем"**
 
 ## Конфігурація середи
 
@@ -62,11 +51,7 @@ touch hello.html
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/1_first_git_status.png" alt="Перевірка гіт статусу" width="300px"  >
-</div>
-<br>
+![Перевірка гіт статусу](screenshots/1_first_git_status.png)
 
 Поточна гілка — головна, нема файлів для створення комітів.
 
@@ -84,11 +69,7 @@ touch hello.html
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/2_git_status_after_change.png" alt="Перевірка гіт статусу після зміни файла" width="400px"  >
-</div>
-<br>
+![Перевірка гіт статусу після зміни файла](screenshots/2_git_status_after_change.png)
 
 Git відзначив наявність змін у файлі `hello.html`.
 
@@ -100,11 +81,7 @@ Git відзначив наявність змін у файлі `hello.html`.
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/3_git_status_after_add.png" alt="Перевірка гіт статусу після додання файлу" width="400px"  >
-</div>
-<br>
+![Перевірка гіт статусу після додання файлу](screenshots/3_git_status_after_add.png)
 
 Git відзначив готовність `hello.html` до коміту.
 
@@ -116,11 +93,7 @@ Git відзначив готовність `hello.html` до коміту.
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/4_git_history_check.png" alt="Перегляд історії комітів" width="300px"  >
-</div>
-<br>
+![Перегляд історії комітів](screenshots/4_git_history_check.png)
 
 Можна побачити два наявних коміта з відповідними повідомленнями, що були додані раніше.
 
@@ -132,11 +105,7 @@ Git відзначив готовність `hello.html` до коміту.
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/5_hello_html_now.png" alt="Перевірка поточного вміста файла hello.html" width="200px"  >
-</div>
-<br>
+![Перевірка поточного вміста файла hello.html](screenshots/5_hello_html_now.png)
 
 Переключимось на стару версію репозиторію на перший коміт:
 
@@ -148,11 +117,7 @@ Git відзначив готовність `hello.html` до коміту.
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/6_hello_html_before.png" alt="Перевірка вміста файла hello.html на першому коміті" width="200px"  >
-</div>
-<br>
+![Перевірка вміста файла hello.html на першому коміті](screenshots/6_hello_html_before.png)
 
 Як можна побачити, ми повернулись на пусту версію файлу `hello.html`.
 
@@ -166,11 +131,7 @@ Git відзначив готовність `hello.html` до коміту.
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/7_hello_html_newest.png" alt="Перевірка вміста файла hello.html після повернення на останній" width="200px"  >
-</div>
-<br>
+![Перевірка вміста файла hello.html після повернення на останній](screenshots/7_hello_html_newest.png)
 
 #### 3. Тагування
 
@@ -187,11 +148,7 @@ git tag v1 edf6419
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/8_git_tag.png" alt="Перевірка виставлених до комітів тегів" width="100px"  >
-</div>
-<br>
+![Перевірка виставлених до комітів тегів](screenshots/8_git_tag.png)
 
 Усього було додано два тега: `v1-beta` та `v1`.
 
@@ -203,11 +160,7 @@ git tag v1 edf6419
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/9_hello_html_new_change.png" alt="Нова зміна файла hello.html" width="200px"  >
-</div>
-<br>
+![Нова зміна файла hello.html](screenshots/9_hello_html_new_change.png)
 
 Заплануємо зміну файла до коміту:
 
@@ -219,11 +172,7 @@ git tag v1 edf6419
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/10_git_status.png" alt="Статус репозиторія" width="400px"  >
-</div>
-<br>
+![Статус репозиторія](screenshots/10_git_status.png)
 
 Відмінемо додання файлу `hello.html`:
 
@@ -239,11 +188,7 @@ git tag v1 edf6419
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/11_hello_html_reset.png" alt="Відкат зміни файла hello.html, вміст файлу" width="200px"  >
-</div>
-<br>
+![Відкат зміни файла hello.html, вміст файлу](screenshots/11_hello_html_reset.png)
 
 #### 5. Відкат коміту
 
@@ -260,11 +205,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/12_git_log.png" alt="Список комітів" width="300px"  >
-</div>
-<br>
+![Список комітів](screenshots/12_git_log.png)
 
 Створимо коміт, який відкатить зміни поточного:
 
@@ -276,11 +217,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/13_git_log_revert.png" alt="Список комітів після відміни коміту" width="300px"  >
-</div>
-<br>
+![Список комітів після відміни коміту](screenshots/13_git_log_revert.png)
 
 Для видалення зайвих комітів, та відкату до версії `v1`, промаркуємо поточний коміт як `currpoint`:
 
@@ -292,11 +229,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/14_git_log_after_new_tag.png" alt="Список комітів після маркування останнього" width="400px"  >
-</div>
-<br>
+![Список комітів після маркування останнього](screenshots/14_git_log_after_new_tag.png)
 
 Повернемося до версії `v1`:
 
@@ -308,11 +241,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/15_git_log_after_reset.png" alt="Список комітів після ресета" width="300px"  >
-</div>
-<br>
+![Список комітів після ресета](screenshots/15_git_log_after_reset.png)
 
 Згідно до результатів, поточним комітом став коміт з тегом `v1`.
 
@@ -326,11 +255,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/16_git_log_after_delete_tag.png" alt="Список комітів після видалення тегу" width="300px"  >
-</div>
-<br>
+![Список комітів після видалення тегу](screenshots/16_git_log_after_delete_tag.png)
 
 Зайві коміти зникли з історії комітів після видалення тегу, який посилався на останній коміт.
 
@@ -342,11 +267,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/17_hello_html_author.png" alt="Вміст файлу hello.html після додання автора та електронної пошти" width="400px"  >
-</div>
-<br>
+![Вміст файлу hello.html після додання автора та електронної пошти](screenshots/17_hello_html_author.png)
 
 Створимо коміт:
 
@@ -360,11 +281,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/18_git_log_after_add_author.png" alt="Список комітів після зміни файла hello.html" width="400px"  >
-</div>
-<br>
+![Список комітів після зміни файла hello.html](screenshots/18_git_log_after_add_author.png)
 
 Виправимо файл `hello.html`, додамо забутий символ `@`:
 
@@ -372,11 +289,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/19_hello_html_author.png" alt="Вміст файлу hello.html після виправлення електронної пошти" width="400px"  >
-</div>
-<br>
+![Вміст файлу hello.html після виправлення електронної пошти](screenshots/19_hello_html_author.png)
 
 Виконаємо злиття:
 
@@ -390,11 +303,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/20_git_log_after_ammend.png" alt="Список комітів після зміни останнього коміта" width="400px"  >
-</div>
-<br>
+![Список комітів після зміни останнього коміта](screenshots/20_git_log_after_ammend.png)
 
 #### 7. Створення гілки
 
@@ -408,11 +317,7 @@ git commit -m "Oops, bad commit!"
 
 **Результат:**
 
-<br>
-<div align="center">
-    <img src="screenshots/21_git_status_after_new_branch.png" alt="Статус репозиторія після додання нової гілки" width="300px"  >
-</div>
-<br>
+![Статус репозиторія після додання нової гілки](screenshots/21_git_status_after_new_branch.png)
 
 Створилася нова гілка `style`, яка стала поточною гілкою.
 
@@ -482,11 +387,7 @@ h1 {
 
 Перевіримо репозиторій на сайті `https://github.com`.
 
-<br>
-<div align="center">
-    <img src="screenshots/22_github.png" alt="Репозиторій на сайті github" width="500px"  >
-</div>
-<br>
+![Репозиторій на сайті github](screenshots/22_github.png)
 
 **Репозиторій успішно завантажився на сайт github.com!**
 
